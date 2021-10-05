@@ -1,0 +1,3 @@
+[submodule "timeseriesdb"]
+	path = timeseriesdb
+	url = git@github.com:joonyoungleeduke/timeseriesdb.git
