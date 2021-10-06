@@ -23,7 +23,7 @@ IMPORTANT SCRIPTS:
 - teardown.sh : remove docker containers 
 
 ## TECH 
-QuestDB (https://questdb.io/)
-FastAPI (https://fastapi.tiangolo.com/)
+- QuestDB (https://questdb.io/)
+- FastAPI (https://fastapi.tiangolo.com/)
 
 Along with Docker, Git, ...
