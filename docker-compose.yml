@@ -1,0 +1,8 @@
+services:
+  timeseriesdb:
+    build: ./timeseriesdb
+    ports: 
+      - "9009:9009"
+      - "8812:8812"
+      - "9003:9003"
+  

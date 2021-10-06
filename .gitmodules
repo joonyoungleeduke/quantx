@@ -1,3 +1,6 @@
 [submodule "timeseriesdb"]
 	path = timeseriesdb
 	url = git@github.com:joonyoungleeduke/timeseriesdb.git
+[submodule "userapi"]
+	path = userapi
+	url = git@github.com:joonyoungleeduke/userapi.git
