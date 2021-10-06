@@ -4,3 +4,6 @@
 [submodule "userapi"]
 	path = userapi
 	url = git@github.com:joonyoungleeduke/userapi.git
+[submodule "backtestapi"]
+	path = backtestapi
+	url = git@github.com:joonyoungleeduke/backtestapi.git
