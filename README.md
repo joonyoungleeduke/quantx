@@ -17,10 +17,10 @@ WARNING: Scripts get complicated by your platform. Some will work out of the gat
 Please DO NOT push your local-specific (ie it's only applicable to your system) script changes to the main repo that everyone uses.
 
 IMPORTANT SCRIPTS: 
-init.sh : used for setting up subrepos
-update.sh : used for updating subrepos (pulling)
-setup.py : sets up the docker containers AND fills the database with data 
-teardown.sh : remove docker containers 
+- init.sh : used for setting up subrepos
+- update.sh : used for updating subrepos (pulling)
+- setup.py : sets up the docker containers AND fills the database with data 
+- teardown.sh : remove docker containers 
 
 ## TECH 
 QuestDB (https://questdb.io/)
