@@ -9,8 +9,10 @@ TIME_SERIES_SCRIPTS = os.path.join(TIME_SERIES_DIR, 'scripts')
 
 PYTHON = 'python3'
 
+SETUP_SCRIPT = "setup.sh"
+
 def main():
-    subprocess.call(os.path.join(CURR_DIR, "setup.sh"))
+    subprocess.call(os.path.join(CURR_DIR, SETUP_SCRIPT))
     subprocess.call([PYTHON, os.path.join(TIME_SERIES_SCRIPTS, 'dbsetup.py')])
 
 if __name__ == "__main__":
