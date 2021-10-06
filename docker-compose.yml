@@ -1,8 +1,18 @@
+version: "3.9"
 services:
   timeseriesdb:
     build: ./timeseriesdb
     ports: 
+      - "9000:9000"
       - "9009:9009"
       - "8812:8812"
       - "9003:9003"
-  
+  userapi:
+    build: ./userapi 
+    command: uvicorn app.main:app --host 0.0.0.0 --port 80
+    ports:
+      - "80:80"
+    volumes: 
+      - .:/code 
+    depends_on: 
+      - timeseriesdb 
