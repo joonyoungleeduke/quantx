@@ -7,3 +7,12 @@
 [submodule "backtestapi"]
 	path = backtestapi
 	url = git@github.com:joonyoungleeduke/backtestapi.git
+[submodule "client"]
+	path = client
+	url = git@github.com:quantx-316/client.git
+[submodule "server"]
+	path = server
+	url = git@github.com:quantx-316/server.git
+[submodule "db"]
+	path = db
+	url = git@github.com:quantx-316/db.git
