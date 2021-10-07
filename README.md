@@ -5,7 +5,7 @@ Please read through this entire README!
 ## SETUP
 
 1. init_submodules.sh (see 'SCRIPTS')
-2. * For each sub repo you will have to 'git branch' as needed (it will likely put you in a detached GIT head) * 
+2. For each sub repo you will have to 'git branch' as needed (it will likely put you in a detached GIT head) 
 3. Test entire system 
     - ./scripts/setup.sh 
     - ./scripts/teardown.sh 
