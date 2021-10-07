@@ -1,18 +1,19 @@
 version: "3.9"
 services:
-  timeseriesdb:
-    build: ./timeseriesdb
+  timedb:
+    build: ./db
+    env_file: db.conf 
     ports: 
-      - "9000:9000"
-      - "9009:9009"
-      - "8812:8812"
-      - "9003:9003"
-  userapi:
-    build: ./userapi 
+      - "5432:5432"
+    volumes:
+      - ./data/db:/var/lib/timescale/data
+  server:
+    build: ./server 
     command: uvicorn app.main:app --host 0.0.0.0 --port 80
     ports:
       - "80:80"
     volumes: 
       - .:/code 
+    env_file: db.conf 
     depends_on: 
-      - timeseriesdb 
+      - timedb 
