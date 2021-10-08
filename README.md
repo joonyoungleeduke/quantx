@@ -23,6 +23,10 @@ IMPORTANT SCRIPTS:
 - update_submodules.sh : used for updating subrepos 
 - setup.sh : sets up all the commponents 
 - teardown.sh : shuts down the components 
+- rebuild_... : rebuild ... part of stack 
+    - client.sh 
+    - db.sh
+    - server.sh 
 
 ## STRUCTURE
 
