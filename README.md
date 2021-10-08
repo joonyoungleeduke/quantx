@@ -2,6 +2,11 @@
 
 Please read through this entire README!
 
+## DEVELOPMENT
+
+- There IS hot reloading for the client in docker-compose
+- 
+
 ## SETUP
 
 1. init_submodules.sh (see 'SCRIPTS')
