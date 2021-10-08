@@ -5,7 +5,7 @@ Please read through this entire README!
 ## DEVELOPMENT
 
 - There IS hot reloading for the client in docker-compose
-- 
+- Use rebuild scripts to rebuild parts of the stack during development
 
 ## SETUP
 
@@ -39,5 +39,8 @@ TimescaleDB (https://www.timescale.com/)
 FastAPI (https://fastapi.tiangolo.com/)
 
 ### Client 
+
+- Netlify 
+  - https://quantx-algo.netlify.app/ (quantx taken)
 
 React, TypeScript, Redux
