@@ -44,3 +44,5 @@ FastAPI (https://fastapi.tiangolo.com/)
   - https://quantx-algo.netlify.app/ (quantx taken)
 
 React, TypeScript, Redux
+- Monaco Editor (https://microsoft.github.io/monaco-editor/)
+- TradingView (https://www.tradingview.com/HTML5-stock-forex-bitcoin-charting-library/)
