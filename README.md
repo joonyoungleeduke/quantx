@@ -17,6 +17,7 @@
 
 * Uses FastAPI (https://fastapi.tiangolo.com/)
 * Depends on DB
+* <u>To see detailed endpoint information run the server & db together with defaults and go to (server URL)/docs, where server URL is typically localhost:80</u>
 
 ### Client
 
