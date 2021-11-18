@@ -4,7 +4,8 @@
 
 ## Structure 
 
-* Consists of three linked sub-repositories 
+* Consists of three linked sub-repositories.
+* Each sub-linked repository and the top-level repository contain scripts relating to its Dockerfile for convenience of individual deployment. Typically the top-level repository's scripts are the ones most currently maintained, so there is no guarantee all sub-linked repository scripts will work. 
 * <u>Top-level repository may not contain the most up-to-date information. Go to 'main' in each sub-repository for the most up to date code.</u>
 * See the README.md within each sub-repository for more information. 
 
