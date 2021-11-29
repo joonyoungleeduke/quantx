@@ -20,7 +20,7 @@ services:
   server:
     build: ./server 
     container_name: server 
-    command: uvicorn app.main:app --host 0.0.0.0 --port 80
+    command: /main/init.sh
     ports:
       - "80:80"
     volumes: 
