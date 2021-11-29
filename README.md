@@ -2,6 +2,15 @@
 
 
 
+## Notice
+
+**<u>If setup fails with the scripts...</u>**
+
+- Check if it is a 'syntax error' with bash scripts. Line ending differences between Linux & Windows 10/11 have been found on our local dev machines to cause errors. One way to solve this is to manually run the commands (if they are simple one-line docker commands) or copy + paste the code in the bash script, delete the corresponding script, make a new script in the same location with the same name, and copy + paste the code back in. 
+  - <u>One place where this may happen prevalently is in the server repository that uses init.sh for a cron job to ingest stock data, make sure to check that repository's README.md for more information.</u>
+
+* If it is not a 'syntax error,' then try reading through all the repository READMEs to see if your concerns are addressed. 
+
 ## Structure 
 
 * Consists of three linked sub-repositories.
